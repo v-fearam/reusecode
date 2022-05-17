@@ -1,4 +1,4 @@
-. ..\common\script-code\powershell\log-v1.ps1
+. ..\..\common\script\powershell\log-v1.ps1
 
 #requires -version 2
 
