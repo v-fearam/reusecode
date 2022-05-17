@@ -7,3 +7,4 @@ source ./main-profile.sh >$log_filename
 
 #region main: Script actvities calling function already defined and loaded and base on the setting selected profile
 hello_world_func $name | adddate | tee -a $log_filename
+echo "Hello" | adddate | tee -a $log_filename
